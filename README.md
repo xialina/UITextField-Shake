@@ -12,8 +12,6 @@ UITextField摇晃，可用于提示
 
 // 统一改变textfield边框颜色或者宽度的方法。
 
-// 利用NSArray的enumerateObjectUsingBlock方法。
-
     NSArray *fields = @[_textShake, _textSpeed, _textDelta, _textField];
     [fields enumerateObjectsUsingBlock:^(UITextField *obj, NSUInteger idx, BOOL *stop){
         [obj.layer setBorderWidth:2];
