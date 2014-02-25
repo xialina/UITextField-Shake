@@ -14,7 +14,7 @@ UITextField摇晃，可用于提示
 
 // 利用NSArray的enumerateObjectUsingBlock方法。
 
-NSArray *fields = @[_textShake, _textSpeed, _textDelta, _textField];
+    NSArray *fields = @[_textShake, _textSpeed, _textDelta, _textField];
     [fields enumerateObjectsUsingBlock:^(UITextField *obj, NSUInteger idx, BOOL *stop){
         [obj.layer setBorderWidth:2];
         [obj.layer setBorderColor:[UIColor colorWithRed:49.0/255.0 green:186.0/255.0 blue:81.0/255.0 alpha:1].CGColor];
