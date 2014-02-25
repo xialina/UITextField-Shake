@@ -5,7 +5,9 @@ UITextField摇晃，可用于提示
 
 
 // 调用方法，_textField将shake5次
+
     [_textField shake:10 withDelta:5 andSpeed:0.04];
+
 
 
 // 统一改变textfield边框颜色或者宽度的方法。
